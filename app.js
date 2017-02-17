@@ -52,7 +52,7 @@ for(j = 1; j < higherIndex; j++){
 	}
 }
 
-console.log("biggest square/rectangle is " + findHigher(square) + " unit!");
+document.getElementById("display").innerHTML = "the biggest square/rectangle is " + findHigher(square) + " unit";
 
 
 function drawBand(X, Y)
